@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+    <meta name="description" content="Contact me of HTML Website" />
+    <meta name="keywords" content="html, basic html, only html,contact" />
+    <meta name="robots" content="index, follow" />
+
+    <meta name="og:title" content="Contact of Basic HTML Website" />
+    <meta
+      name="og:description"
+      content="This page contains how to contact the atmin"
+    />
+    <meta name="og:image" content="favicon-32x32.png" />
+    <meta name="og:url" content="https://www.basichtml/contact.com" />
+  </head>
+  <body>
+    <header>
+      <h2>Contact Me</h2>
+    </header>
+
+    <hr />
+
+    <main>
+      <section>
+        <h3>Form Data</h3>
+        <form action="https://httpbin.org/post" method="post" autocomplete="on">
+          <fieldset>
+            <legend>^-^</legend>
+            <p>
+              <label for="name">Name :</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="your name"
+                required
+              />
+            </p>
+
+            <p>
+              <label for="gender">Gender :</label>
+              <select name="gender" id="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+              </select>
+            </p>
+
+            <p>
+              <label for="email">Email :</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="optional@gmail.com"
+              />
+            </p>
+
+            <p>
+              <label for="messages">Messages :</label><br />
+              <textarea
+                name="messages"
+                id="messages"
+                placeholder="type your messages"
+                required
+                rows="6"
+                cols="60"
+                maxlength="500"
+              ></textarea>
+            </p>
+
+            <input type="submit" />
+            <input type="reset" />
+          </fieldset>
+        </form>
+      </section>
+    </main>
+
+    <hr />
+
+    <footer>
+      <a href="/">back</a>
+      <h3>&copy; all right reversed</h3>
+    </footer>
+  </body>
+</html>
